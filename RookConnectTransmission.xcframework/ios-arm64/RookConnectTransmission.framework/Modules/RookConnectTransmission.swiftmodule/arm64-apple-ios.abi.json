@@ -4181,6 +4181,47 @@
           },
           {
             "kind": "Function",
+            "name": "setConfiguration",
+            "printedName": "setConfiguration(with:clientUUID:secretKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RookConnectTransmission@objc(cs)RookTransmissionSettings(im)setConfigurationWith:clientUUID:secretKey:",
+            "mangledName": "$s23RookConnectTransmission0aC8SettingsC16setConfiguration4with10clientUUID9secretKeyySS_S2StF",
+            "moduleName": "RookConnectTransmission",
+            "objc_name": "setConfigurationWith:clientUUID:secretKey:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setUserId",
             "printedName": "setUserId(with:)",
             "children": [

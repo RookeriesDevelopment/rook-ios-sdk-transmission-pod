@@ -164,6 +164,7 @@ public enum RookContextType {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class RookTransmissionSettings : ObjectiveC.NSObject {
   @objc public static let shared: RookConnectTransmission.RookTransmissionSettings
   final public func setConfiguration(_ configuration: RookConnectTransmission.RookTransmissionConfiguration)
+  @objc final public func setConfiguration(with urlAPI: Swift.String, clientUUID: Swift.String, secretKey: Swift.String)
   @objc final public func setUserId(with id: Swift.String?)
   @objc final public func initRookTransmission()
   @objc final public func isTransmissionAvailable() -> Swift.Bool
