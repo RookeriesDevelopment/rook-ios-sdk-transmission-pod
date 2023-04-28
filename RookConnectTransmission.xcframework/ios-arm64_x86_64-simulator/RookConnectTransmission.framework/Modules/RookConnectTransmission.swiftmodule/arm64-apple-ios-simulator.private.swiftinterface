@@ -9,10 +9,6 @@ import HealthKit
 import Swift
 import _Concurrency
 import _StringProcessing
-@_inheritsConvenienceInitializers @objc(RookSleepDataExt) public class RookSleepDataExt : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
 extension RookConnectTransmission.RookBodyDataTransmissionDTO {
   public class RookBodyDataTransmissionDTOBuilder {
     public init()
@@ -54,50 +50,8 @@ extension RookConnectTransmission.RookBodyDataTransmissionDTO {
   final public func uploadSleepSummaries(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
   @objc deinit
 }
-extension RookConnectTransmission.RookBodyDataExt {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<RookConnectTransmission.RookBodyDataExt>
-  @objc @NSManaged dynamic public var dateTime: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var bodyData: Foundation.Data? {
-    @objc get
-    @objc set
-  }
-}
-extension RookConnectTransmission.RookBodyDataExt : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
-}
 public struct JSONParameterEncoder : RookConnectTransmission.ParameterEncoder {
   public static func encode(urlRequest: inout Foundation.URLRequest, with parameters: RookConnectTransmission.Parameters) throws
-}
-extension RookConnectTransmission.RookSleepDataExt {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<RookConnectTransmission.RookSleepDataExt>
-  @objc @NSManaged dynamic public var sleepData: Foundation.Data? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var dateTime: Swift.String? {
-    @objc get
-    @objc set
-  }
-}
-extension RookConnectTransmission.RookSleepDataExt : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
-}
-extension RookConnectTransmission.RookPhysicalDataExt {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<RookConnectTransmission.RookPhysicalDataExt>
-  @objc @NSManaged dynamic public var dateTime: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged dynamic public var physicalData: Foundation.Data? {
-    @objc get
-    @objc set
-  }
-}
-extension RookConnectTransmission.RookPhysicalDataExt : Swift.Identifiable {
-  public typealias ID = Swift.ObjectIdentifier
 }
 public enum HTTPMethod : Swift.String {
   case get
@@ -107,10 +61,6 @@ public enum HTTPMethod : Swift.String {
   public var rawValue: Swift.String {
     get
   }
-}
-@_inheritsConvenienceInitializers @objc(RookBodyDataExt) public class RookBodyDataExt : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
 }
 extension RookConnectTransmission.RookSleepTransmissionManager {
   @objc final public func enqueueSleepSummaryObjc(with summaryBuilder: RookConnectTransmission.RookSleepDataTransmissionDTOBuilderObjc, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
@@ -662,10 +612,6 @@ extension RookConnectTransmission.RookPhysicalTransmissionManager {
   @objc final public func enqueuePhysicalSummaryWithPhysicalBuilderObjc(_ builder: RookConnectTransmission.RookPhysicalDataTransmissionDTOBuilderObjc, completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc final public func getPhysicalSummariesStored(completion: @escaping ([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void)
   @objc final public func uploadPhysicalSummariesObjc(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
-}
-@_inheritsConvenienceInitializers @objc(RookPhysicalDataExt) public class RookPhysicalDataExt : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class RookPhysicalDataTransmissionDTO : Swift.Codable {
   public var datetime: Foundation.Date

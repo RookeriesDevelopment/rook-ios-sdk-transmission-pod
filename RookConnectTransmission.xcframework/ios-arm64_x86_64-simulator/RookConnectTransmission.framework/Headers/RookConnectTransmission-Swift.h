@@ -230,7 +230,6 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -353,23 +352,7 @@ SWIFT_CLASS("_TtC23RookConnectTransmission25MoodGranularDataScaleObjc")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-
-SWIFT_CLASS_NAMED("RookBodyDataExt")
-@interface RookBodyDataExt : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @class NSString;
-@class NSData;
-
-@interface RookBodyDataExt (SWIFT_EXTENSION(RookConnectTransmission))
-@property (nonatomic, copy) NSString * _Nullable dateTime;
-@property (nonatomic, copy) NSData * _Nullable bodyData;
-@end
-
 @class NSNumber;
 @class SaturationGranularDataPercentageObjc;
 @class Vo2GranularDataLiterPerMinObjc;
@@ -399,6 +382,7 @@ SWIFT_CLASS("_TtC23RookConnectTransmission27RookBodyTransmissionManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSData;
 
 @interface RookBodyTransmissionManager (SWIFT_EXTENSION(RookConnectTransmission))
 - (void)enqueueBodySummaryObjcWith:(NSData * _Nonnull)extractionData completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
@@ -437,19 +421,6 @@ SWIFT_CLASS("_TtC23RookConnectTransmission40RookHrvSdnnGranularDatumTransmission
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime hrvSdnn:(NSInteger)hrvSdnn OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("RookPhysicalDataExt")
-@interface RookPhysicalDataExt : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@interface RookPhysicalDataExt (SWIFT_EXTENSION(RookConnectTransmission))
-@property (nonatomic, copy) NSString * _Nullable dateTime;
-@property (nonatomic, copy) NSData * _Nullable physicalData;
 @end
 
 @class StepsGranularDataStepsPerHrObjc;
@@ -491,19 +462,6 @@ SWIFT_CLASS("_TtC23RookConnectTransmission52RookSaturationGranularDataPercentage
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime saturationPercentage:(NSInteger)saturationPercentage OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("RookSleepDataExt")
-@interface RookSleepDataExt : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@interface RookSleepDataExt (SWIFT_EXTENSION(RookConnectTransmission))
-@property (nonatomic, copy) NSData * _Nullable sleepData;
-@property (nonatomic, copy) NSString * _Nullable dateTime;
 @end
 
 @class RookTemperatureGranularDataCelsiusTransmissionObjc;
@@ -868,7 +826,6 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -991,23 +948,7 @@ SWIFT_CLASS("_TtC23RookConnectTransmission25MoodGranularDataScaleObjc")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-
-SWIFT_CLASS_NAMED("RookBodyDataExt")
-@interface RookBodyDataExt : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @class NSString;
-@class NSData;
-
-@interface RookBodyDataExt (SWIFT_EXTENSION(RookConnectTransmission))
-@property (nonatomic, copy) NSString * _Nullable dateTime;
-@property (nonatomic, copy) NSData * _Nullable bodyData;
-@end
-
 @class NSNumber;
 @class SaturationGranularDataPercentageObjc;
 @class Vo2GranularDataLiterPerMinObjc;
@@ -1037,6 +978,7 @@ SWIFT_CLASS("_TtC23RookConnectTransmission27RookBodyTransmissionManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSData;
 
 @interface RookBodyTransmissionManager (SWIFT_EXTENSION(RookConnectTransmission))
 - (void)enqueueBodySummaryObjcWith:(NSData * _Nonnull)extractionData completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
@@ -1075,19 +1017,6 @@ SWIFT_CLASS("_TtC23RookConnectTransmission40RookHrvSdnnGranularDatumTransmission
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime hrvSdnn:(NSInteger)hrvSdnn OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("RookPhysicalDataExt")
-@interface RookPhysicalDataExt : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@interface RookPhysicalDataExt (SWIFT_EXTENSION(RookConnectTransmission))
-@property (nonatomic, copy) NSString * _Nullable dateTime;
-@property (nonatomic, copy) NSData * _Nullable physicalData;
 @end
 
 @class StepsGranularDataStepsPerHrObjc;
@@ -1129,19 +1058,6 @@ SWIFT_CLASS("_TtC23RookConnectTransmission52RookSaturationGranularDataPercentage
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime saturationPercentage:(NSInteger)saturationPercentage OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("RookSleepDataExt")
-@interface RookSleepDataExt : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@interface RookSleepDataExt (SWIFT_EXTENSION(RookConnectTransmission))
-@property (nonatomic, copy) NSData * _Nullable sleepData;
-@property (nonatomic, copy) NSString * _Nullable dateTime;
 @end
 
 @class RookTemperatureGranularDataCelsiusTransmissionObjc;
