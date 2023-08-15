@@ -4323,6 +4323,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "RookDistanceDateTransmission",
         "printedName": "RookDistanceDateTransmission",
@@ -6966,6 +6976,16 @@
         "printedName": "CoreData",
         "declKind": "Import",
         "moduleName": "RookConnectTransmission"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -46137,6 +46157,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "RookActitivityDataEventTransmission",
         "printedName": "RookActitivityDataEventTransmission",
@@ -62425,6 +62455,43 @@
             "declKind": "EnumElement",
             "usr": "s:23RookConnectTransmission12NetworkErrorO6noDatayA2CmF",
             "mangledName": "$s23RookConnectTransmission12NetworkErrorO6noDatayA2CmF",
+            "moduleName": "RookConnectTransmission"
+          },
+          {
+            "kind": "Var",
+            "name": "NotAuthorizedError",
+            "printedName": "NotAuthorizedError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookConnectTransmission.NetworkError.Type) -> RookConnectTransmission.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "RookConnectTransmission.NetworkError",
+                    "usr": "s:23RookConnectTransmission12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookConnectTransmission.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "RookConnectTransmission.NetworkError",
+                        "usr": "s:23RookConnectTransmission12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RookConnectTransmission12NetworkErrorO013NotAuthorizedE0yA2CmF",
+            "mangledName": "$s23RookConnectTransmission12NetworkErrorO013NotAuthorizedE0yA2CmF",
             "moduleName": "RookConnectTransmission"
           },
           {
@@ -83677,6 +83744,13 @@
       "value": "\"RookConnectTransmission.RookTransmissionActivityLevelGranularObjc\""
     },
     {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookUsersSDK\/Source\/User\/Constants\/RooKUserStorageConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 22,
+      "value": "\"rook_connect_user_id\""
+    },
+    {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/TransmissionManager\/RookEvents\/RookActivityEventTransmission\/Entities\/RookDistanceDateTransmission.swift",
       "kind": "StringLiteral",
       "offset": 3484,
@@ -94256,6 +94330,13 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
       "kind": "StringLiteral",
+      "offset": 568,
+      "length": 20,
+      "value": "\"NotAuthorizedError\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
+      "kind": "StringLiteral",
       "offset": 391,
       "length": 22,
       "value": "\"Parameters were nil.\""
@@ -94280,6 +94361,13 @@
       "offset": 517,
       "length": 22,
       "value": "\"no data was returned\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookAuthenticationSDK\/Source\/networking\/Encoding\/ParameterEncoding.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 20,
+      "value": "\"NotAuthorizedError\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/RookMotion\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/TransmissionManager\/RookEventObjc\/Entities\/RookTransmissionMetaDataEventObjc.swift",

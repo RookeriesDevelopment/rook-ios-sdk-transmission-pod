@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Pz36eJbDjdJgeRQZ5YkxJ+7HtMg=
+		w2DCxVF2fryYsDbF0PQQSjuS4zM=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1JBTsI6uaPFwf41TN0SYm4iwzoo=
+		fkccqt7JB1ey+/hkaxDtO20KVsQ=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1JBTsI6uaPFwf41TN0SYm4iwzoo=
+		fkccqt7JB1ey+/hkaxDtO20KVsQ=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		7Vs98hAX8az458BpiZNByhLZ4n8=
+		05vXZyRTkDpPmgVIrPqj5uipOQs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,14 +77,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k0OlpQaA6fpYxEre7T2XVUO32FdL2pDHFE89dd5VM3Q=
+			DVhJlBauo1a7hkIfR383hVPeLeg5jHJ1YTomGVkvPVM=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGk3S9MUKF9EWeVz9GpOP6nbO7Xp6dG6koAjAO/mRuY=
+			t3HhLlauiUliTuKxkppRGzD6C2yhNZnHt/4CopszCzc=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGk3S9MUKF9EWeVz9GpOP6nbO7Xp6dG6koAjAO/mRuY=
+			t3HhLlauiUliTuKxkppRGzD6C2yhNZnHt/4CopszCzc=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ituV8z1YObctvI/QzeAIIKjPhajyQdepqdscFMQmizM=
+			TmGMvnqmfe9I7VhKAF02jQIgU+bnKxc44zOZhZxK6mY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
