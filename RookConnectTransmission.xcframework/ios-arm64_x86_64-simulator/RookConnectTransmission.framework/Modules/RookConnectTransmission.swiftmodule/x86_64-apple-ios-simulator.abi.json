@@ -89816,48 +89816,48 @@
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
       "offset": 5690,
-      "length": 33,
-      "value": "\"vo2_granular_data_liter_per_min\""
+      "length": 30,
+      "value": "\"vo2_granular_data_ml_per_min\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5763,
       "length": 29,
       "value": "\"temperature_minimum_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5829,
+      "offset": 5826,
       "length": 25,
       "value": "\"temperature_avg_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5888,
+      "offset": 5885,
       "length": 25,
       "value": "\"temperature_max_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5946,
       "length": 27,
       "value": "\"temperature_delta_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6019,
+      "offset": 6016,
       "length": 35,
       "value": "\"temperature_granular_data_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6089,
+      "offset": 6086,
       "length": 21,
       "value": "\"non_structured_data\""
     },
@@ -90180,48 +90180,48 @@
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
       "offset": 5690,
-      "length": 33,
-      "value": "\"vo2_granular_data_liter_per_min\""
+      "length": 30,
+      "value": "\"vo2_granular_data_ml_per_min\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5766,
+      "offset": 5763,
       "length": 29,
       "value": "\"temperature_minimum_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5829,
+      "offset": 5826,
       "length": 25,
       "value": "\"temperature_avg_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5888,
+      "offset": 5885,
       "length": 25,
       "value": "\"temperature_max_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5946,
       "length": 27,
       "value": "\"temperature_delta_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6019,
+      "offset": 6016,
       "length": 35,
       "value": "\"temperature_granular_data_celsius\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/BodyNetworking\/Entities\/V2\/RookBodySummaryTransmissionNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6089,
+      "offset": 6086,
       "length": 21,
       "value": "\"non_structured_data\""
     },
