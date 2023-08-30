@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hfA95euJE2DYxbKmLTnzL19NEMg=
+		CtdxUK6JxubZodFWTJuCQSqYYRo=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4abAVTQGJNYWhKhqk2zAib+0GII=
+		PY7cZnf24FoDz0BmernzOpmHaas=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hfA95euJE2DYxbKmLTnzL19NEMg=
+		CtdxUK6JxubZodFWTJuCQSqYYRo=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OgII9womgFB8JOKpcOgvLIBly5w=
+		ny5SkSIofRiziZttZI3R1UrD26U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bKYMAB+T0/oL7ng3wmjEJlvBgefv9z/6p3Jn9lrQj0s=
+			3+wy09PhnsHYdMEFpaHpyZhreo8Jmx1tXAoLCqnpQ+g=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -125,14 +125,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKQiaLb4nXfIHuj6PsRmRqKPlwix6GfL3NRnaI+YxwQ=
+			OctI9jRmzNzI5aRPUsysItzaKlwb68JRslcqsatU3Qw=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bKYMAB+T0/oL7ng3wmjEJlvBgefv9z/6p3Jn9lrQj0s=
+			3+wy09PhnsHYdMEFpaHpyZhreo8Jmx1tXAoLCqnpQ+g=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -160,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iiooxrmDkuMoQoBp4WFPK3YO+xrtW7KxWjGEmHMjgyU=
+			SLcYBKzRpceLzm49KJfx/ai6+LAoubryHzdKij897Cc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
