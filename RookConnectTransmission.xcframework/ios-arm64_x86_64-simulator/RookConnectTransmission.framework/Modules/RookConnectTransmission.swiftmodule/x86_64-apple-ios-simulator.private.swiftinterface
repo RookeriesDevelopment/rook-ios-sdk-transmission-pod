@@ -174,16 +174,6 @@ public struct RookPowerGranularItemTransmission : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public enum AnaliticPlatform {
-  case ios
-  case flutter
-  case reactNative
-  public static func == (a: RookConnectTransmission.AnaliticPlatform, b: RookConnectTransmission.AnaliticPlatform) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @_inheritsConvenienceInitializers @objc final public class RookSleepTransmissionManager : ObjectiveC.NSObject {
   @objc override dynamic public init()
   final public func enqueueSleepSummary(with extractionData: Foundation.Data, completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
@@ -805,6 +795,22 @@ public struct RookBodyDataTransmissionDTO {
   public var temperatureMaxCelsius: RookConnectTransmission.RookTemperatureTransmissionDTO?
   public var temperatureDeltaCelsius: RookConnectTransmission.RookTemperatureTransmissionDTO?
   public var temperatureGranularDataCelsius: [RookConnectTransmission.RookTemperatureGranularTransmissionDTO]?
+}
+public enum AnaliticPlatform {
+  case ios
+  case flutter
+  case reactNative
+  public static func == (a: RookConnectTransmission.AnaliticPlatform, b: RookConnectTransmission.AnaliticPlatform) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class AnaliticsTransmissionConfigurator : ObjectiveC.NSObject {
+  @objc public static let shared: RookConnectTransmission.AnaliticsTransmissionConfigurator
+  final public func setPlatform(_ platform: RookConnectTransmission.AnaliticPlatform)
+  @objc final public func setPlatformToReact()
+  @objc deinit
 }
 @objc public class RookTransmissionMovementDataObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let speedNormalizedMetersPerSecond: Swift.Int
@@ -1661,13 +1667,13 @@ public struct RookSaturationGranularTransmission : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-extension RookConnectTransmission.AnaliticPlatform : Swift.Equatable {}
-extension RookConnectTransmission.AnaliticPlatform : Swift.Hashable {}
 extension RookConnectTransmission.HTTPMethod : Swift.Equatable {}
 extension RookConnectTransmission.HTTPMethod : Swift.Hashable {}
 extension RookConnectTransmission.HTTPMethod : Swift.RawRepresentable {}
 extension RookConnectTransmission.RookContextType : Swift.Equatable {}
 extension RookConnectTransmission.RookContextType : Swift.Hashable {}
+extension RookConnectTransmission.AnaliticPlatform : Swift.Equatable {}
+extension RookConnectTransmission.AnaliticPlatform : Swift.Hashable {}
 extension RookConnectTransmission.NetworkResponse : Swift.Equatable {}
 extension RookConnectTransmission.NetworkResponse : Swift.Hashable {}
 extension RookConnectTransmission.NetworkResponse : Swift.RawRepresentable {}
