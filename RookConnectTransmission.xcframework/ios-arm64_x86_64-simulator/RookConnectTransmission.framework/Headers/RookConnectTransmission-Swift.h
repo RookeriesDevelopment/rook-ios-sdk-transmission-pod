@@ -262,6 +262,16 @@ SWIFT_CLASS("_TtC23RookConnectTransmission35ActivityLevelGranularDataNumberObjc"
 @end
 
 
+SWIFT_CLASS("_TtC23RookConnectTransmission33AnaliticsTransmissionConfigurator")
+@interface AnaliticsTransmissionConfigurator : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AnaliticsTransmissionConfigurator * _Nonnull shared;)
++ (AnaliticsTransmissionConfigurator * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setPlatformToReact;
+@end
+
+
 SWIFT_CLASS("_TtC23RookConnectTransmission35BloodGlucoseGranularDataMgPerDLObjc")
 @interface BloodGlucoseGranularDataMgPerDLObjc : NSObject
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime bloodGlucoseMgPerDL:(NSInteger)bloodGlucoseMgPerDL OBJC_DESIGNATED_INITIALIZER;
@@ -1376,6 +1386,16 @@ SWIFT_CLASS("_TtC23RookConnectTransmission35ActivityLevelGranularDataNumberObjc"
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime activityLevel:(NSInteger)activityLevel OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC23RookConnectTransmission33AnaliticsTransmissionConfigurator")
+@interface AnaliticsTransmissionConfigurator : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AnaliticsTransmissionConfigurator * _Nonnull shared;)
++ (AnaliticsTransmissionConfigurator * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setPlatformToReact;
 @end
 
 

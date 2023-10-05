@@ -7836,253 +7836,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "AnaliticPlatform",
-        "printedName": "AnaliticPlatform",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "ios",
-            "printedName": "ios",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(RookConnectTransmission.AnaliticPlatform.Type) -> RookConnectTransmission.AnaliticPlatform",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnaliticPlatform",
-                    "printedName": "RookConnectTransmission.AnaliticPlatform",
-                    "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "RookConnectTransmission.AnaliticPlatform.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnaliticPlatform",
-                        "printedName": "RookConnectTransmission.AnaliticPlatform",
-                        "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:23RookConnectTransmission16AnaliticPlatformO3iosyA2CmF",
-            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO3iosyA2CmF",
-            "moduleName": "RookConnectTransmission"
-          },
-          {
-            "kind": "Var",
-            "name": "flutter",
-            "printedName": "flutter",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(RookConnectTransmission.AnaliticPlatform.Type) -> RookConnectTransmission.AnaliticPlatform",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnaliticPlatform",
-                    "printedName": "RookConnectTransmission.AnaliticPlatform",
-                    "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "RookConnectTransmission.AnaliticPlatform.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnaliticPlatform",
-                        "printedName": "RookConnectTransmission.AnaliticPlatform",
-                        "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:23RookConnectTransmission16AnaliticPlatformO7flutteryA2CmF",
-            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO7flutteryA2CmF",
-            "moduleName": "RookConnectTransmission"
-          },
-          {
-            "kind": "Var",
-            "name": "reactNative",
-            "printedName": "reactNative",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(RookConnectTransmission.AnaliticPlatform.Type) -> RookConnectTransmission.AnaliticPlatform",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnaliticPlatform",
-                    "printedName": "RookConnectTransmission.AnaliticPlatform",
-                    "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "RookConnectTransmission.AnaliticPlatform.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnaliticPlatform",
-                        "printedName": "RookConnectTransmission.AnaliticPlatform",
-                        "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:23RookConnectTransmission16AnaliticPlatformO11reactNativeyA2CmF",
-            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO11reactNativeyA2CmF",
-            "moduleName": "RookConnectTransmission"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AnaliticPlatform",
-                "printedName": "RookConnectTransmission.AnaliticPlatform",
-                "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AnaliticPlatform",
-                "printedName": "RookConnectTransmission.AnaliticPlatform",
-                "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RookConnectTransmission16AnaliticPlatformO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO2eeoiySbAC_ACtFZ",
-            "moduleName": "RookConnectTransmission",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23RookConnectTransmission16AnaliticPlatformO9hashValueSivp",
-            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO9hashValueSivp",
-            "moduleName": "RookConnectTransmission",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23RookConnectTransmission16AnaliticPlatformO9hashValueSivg",
-                "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO9hashValueSivg",
-                "moduleName": "RookConnectTransmission",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23RookConnectTransmission16AnaliticPlatformO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO4hash4intoys6HasherVz_tF",
-            "moduleName": "RookConnectTransmission",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:23RookConnectTransmission16AnaliticPlatformO",
-        "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO",
-        "moduleName": "RookConnectTransmission",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "RookConnectTransmission",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "RookSleepTransmissionManager",
         "printedName": "RookSleepTransmissionManager",
         "children": [
@@ -16198,16 +15951,6 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "RookConnectTransmission",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -40736,6 +40479,430 @@
         "moduleName": "RookConnectTransmission",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnaliticPlatform",
+        "printedName": "AnaliticPlatform",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ios",
+            "printedName": "ios",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookConnectTransmission.AnaliticPlatform.Type) -> RookConnectTransmission.AnaliticPlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnaliticPlatform",
+                    "printedName": "RookConnectTransmission.AnaliticPlatform",
+                    "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookConnectTransmission.AnaliticPlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnaliticPlatform",
+                        "printedName": "RookConnectTransmission.AnaliticPlatform",
+                        "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RookConnectTransmission16AnaliticPlatformO3iosyA2CmF",
+            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO3iosyA2CmF",
+            "moduleName": "RookConnectTransmission"
+          },
+          {
+            "kind": "Var",
+            "name": "flutter",
+            "printedName": "flutter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookConnectTransmission.AnaliticPlatform.Type) -> RookConnectTransmission.AnaliticPlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnaliticPlatform",
+                    "printedName": "RookConnectTransmission.AnaliticPlatform",
+                    "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookConnectTransmission.AnaliticPlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnaliticPlatform",
+                        "printedName": "RookConnectTransmission.AnaliticPlatform",
+                        "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RookConnectTransmission16AnaliticPlatformO7flutteryA2CmF",
+            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO7flutteryA2CmF",
+            "moduleName": "RookConnectTransmission"
+          },
+          {
+            "kind": "Var",
+            "name": "reactNative",
+            "printedName": "reactNative",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookConnectTransmission.AnaliticPlatform.Type) -> RookConnectTransmission.AnaliticPlatform",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnaliticPlatform",
+                    "printedName": "RookConnectTransmission.AnaliticPlatform",
+                    "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookConnectTransmission.AnaliticPlatform.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnaliticPlatform",
+                        "printedName": "RookConnectTransmission.AnaliticPlatform",
+                        "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RookConnectTransmission16AnaliticPlatformO11reactNativeyA2CmF",
+            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO11reactNativeyA2CmF",
+            "moduleName": "RookConnectTransmission"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnaliticPlatform",
+                "printedName": "RookConnectTransmission.AnaliticPlatform",
+                "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnaliticPlatform",
+                "printedName": "RookConnectTransmission.AnaliticPlatform",
+                "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RookConnectTransmission16AnaliticPlatformO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO2eeoiySbAC_ACtFZ",
+            "moduleName": "RookConnectTransmission",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23RookConnectTransmission16AnaliticPlatformO9hashValueSivp",
+            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO9hashValueSivp",
+            "moduleName": "RookConnectTransmission",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23RookConnectTransmission16AnaliticPlatformO9hashValueSivg",
+                "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO9hashValueSivg",
+                "moduleName": "RookConnectTransmission",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RookConnectTransmission16AnaliticPlatformO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO4hash4intoys6HasherVz_tF",
+            "moduleName": "RookConnectTransmission",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23RookConnectTransmission16AnaliticPlatformO",
+        "mangledName": "$s23RookConnectTransmission16AnaliticPlatformO",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnaliticsTransmissionConfigurator",
+        "printedName": "AnaliticsTransmissionConfigurator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnaliticsTransmissionConfigurator",
+                "printedName": "RookConnectTransmission.AnaliticsTransmissionConfigurator",
+                "usr": "c:@M@RookConnectTransmission@objc(cs)AnaliticsTransmissionConfigurator"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@RookConnectTransmission@objc(cs)AnaliticsTransmissionConfigurator(cpy)shared",
+            "mangledName": "$s23RookConnectTransmission09AnaliticsC12ConfiguratorC6sharedACvpZ",
+            "moduleName": "RookConnectTransmission",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnaliticsTransmissionConfigurator",
+                    "printedName": "RookConnectTransmission.AnaliticsTransmissionConfigurator",
+                    "usr": "c:@M@RookConnectTransmission@objc(cs)AnaliticsTransmissionConfigurator"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@RookConnectTransmission@objc(cs)AnaliticsTransmissionConfigurator(cm)shared",
+                "mangledName": "$s23RookConnectTransmission09AnaliticsC12ConfiguratorC6sharedACvgZ",
+                "moduleName": "RookConnectTransmission",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setPlatform",
+            "printedName": "setPlatform(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnaliticPlatform",
+                "printedName": "RookConnectTransmission.AnaliticPlatform",
+                "usr": "s:23RookConnectTransmission16AnaliticPlatformO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23RookConnectTransmission09AnaliticsC12ConfiguratorC11setPlatformyyAA08AnaliticG0OF",
+            "mangledName": "$s23RookConnectTransmission09AnaliticsC12ConfiguratorC11setPlatformyyAA08AnaliticG0OF",
+            "moduleName": "RookConnectTransmission",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPlatformToReact",
+            "printedName": "setPlatformToReact()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RookConnectTransmission@objc(cs)AnaliticsTransmissionConfigurator(im)setPlatformToReact",
+            "mangledName": "$s23RookConnectTransmission09AnaliticsC12ConfiguratorC18setPlatformToReactyyF",
+            "moduleName": "RookConnectTransmission",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RookConnectTransmission@objc(cs)AnaliticsTransmissionConfigurator",
+        "mangledName": "$s23RookConnectTransmission09AnaliticsC12ConfiguratorC",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -79316,6 +79483,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RookConnectTransmission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "BloodGlucoseGranularDataMgPerDLObjc",
         "printedName": "BloodGlucoseGranularDataMgPerDLObjc",
@@ -86130,20 +86307,6 @@
       "value": "\"power_watts\""
     },
     {
-      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Helpers\/AnaliticsConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 464,
-      "length": 20,
-      "value": "\"ios-elastic-search\""
-    },
-    {
-      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookAppleHealth\/Source\/Analitics\/Helpers\/AnaliticsConfigurator.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 16,
-      "value": "\"2%s@kWdP4NdY&V\""
-    },
-    {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/Entities\/CommonGranular\/RookVo2GranularTransmissionNetworking.swift",
       "kind": "StringLiteral",
       "offset": 536,
@@ -90398,6 +90561,20 @@
       "offset": 201,
       "length": 40,
       "value": "\"You have to set the configration first\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Analitics\/Helpers\/AnaliticsTransmissionConfigurator.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 20,
+      "value": "\"ios-elastic-search\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Analitics\/Helpers\/AnaliticsTransmissionConfigurator.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 16,
+      "value": "\"2%s@kWdP4NdY&V\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/TransmissionManager\/RookEventObjc\/Activity\/Entities\/RookTransmissionMovementDataObjc.swift",
