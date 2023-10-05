@@ -948,7 +948,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookTransmis
 + (RookTransmissionSettings * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)setConfigurationWith:(NSString * _Nonnull)urlAPI clientUUID:(NSString * _Nonnull)clientUUID secretKey:(NSString * _Nonnull)secretKey;
+- (void)setConfigurationWithClientUUID:(NSString * _Nonnull)clientUUID secretKey:(NSString * _Nonnull)secretKey;
+- (void)setEnvironmentToSandbox;
+- (void)setEnvironmentToProduction;
 - (void)setUserIdWith:(NSString * _Nullable)id;
 - (void)initRookTransmission SWIFT_METHOD_FAMILY(none);
 - (BOOL)isTransmissionAvailable SWIFT_WARN_UNUSED_RESULT;
