@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RookConnectTransmission"
-  spec.version      = "1.0.14"
+  spec.version      = "1.0.15"
   spec.summary      = "RookConnectTransmission Transmission iOS Lib"
 
   spec.description  = "RookConnectTransmission Transmission iOS sdk allows to transmit health data from health kit"
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
 
-  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-transmission-pod.git", :tag => "1.0.14" }
+  spec.source       = { :git => "https://github.com/RookeriesDevelopment/rook-ios-sdk-transmission-pod.git", :tag => "1.0.15" }
 
   spec.ios.vendored_frameworks = 'RookConnectTransmission.xcframework'
 

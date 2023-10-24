@@ -218,6 +218,12 @@ public struct RookSnoringGranularTransmissionDTO {
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class TransmissionIOSClass : ObjectiveC.NSObject {
+  @objc public static var shared: RookConnectTransmission.TransmissionIOSClass
+  @objc public func test()
+  @objc public func diableTest()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc final public class RookTransmissionHrEventManagerObjc : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc final public func enqueueHrEvents(_ events: [RookConnectTransmission.RookTransmissionHeartRateEventObjc], completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
