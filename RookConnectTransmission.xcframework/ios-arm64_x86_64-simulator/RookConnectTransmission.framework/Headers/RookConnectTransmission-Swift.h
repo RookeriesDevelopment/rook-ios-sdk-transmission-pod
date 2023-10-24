@@ -1102,6 +1102,18 @@ SWIFT_CLASS("_TtC23RookConnectTransmission37SwimmingDistanceGranularDataMeterObj
 @end
 
 
+SWIFT_CLASS("_TtC23RookConnectTransmission20TransmissionIOSClass")
+@interface TransmissionIOSClass : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) TransmissionIOSClass * _Nonnull shared;)
++ (TransmissionIOSClass * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(TransmissionIOSClass * _Nonnull)value;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)test;
+- (void)diableTest;
+@end
+
+
 SWIFT_CLASS("_TtC23RookConnectTransmission37TraveledDistanceGranularDataMeterObjc")
 @interface TraveledDistanceGranularDataMeterObjc : NSObject
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime intervalDurationSeconds:(NSInteger)intervalDurationSeconds traveledDistanceMeters:(NSInteger)traveledDistanceMeters OBJC_DESIGNATED_INITIALIZER;
@@ -2226,6 +2238,18 @@ SWIFT_CLASS("_TtC23RookConnectTransmission37SwimmingDistanceGranularDataMeterObj
 - (nonnull instancetype)initWithDatetime:(NSDate * _Nonnull)datetime intervalDurationSeconds:(NSInteger)intervalDurationSeconds swimmingDistanceMeters:(NSInteger)swimmingDistanceMeters OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC23RookConnectTransmission20TransmissionIOSClass")
+@interface TransmissionIOSClass : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) TransmissionIOSClass * _Nonnull shared;)
++ (TransmissionIOSClass * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
++ (void)setShared:(TransmissionIOSClass * _Nonnull)value;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)test;
+- (void)diableTest;
 @end
 
 
