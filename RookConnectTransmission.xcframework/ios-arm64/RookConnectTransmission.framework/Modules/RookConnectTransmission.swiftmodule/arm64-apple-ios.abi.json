@@ -68000,6 +68000,43 @@
             "moduleName": "RookConnectTransmission"
           },
           {
+            "kind": "Var",
+            "name": "emptyData",
+            "printedName": "emptyData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RookConnectTransmission.RookTransmissionError.Type) -> RookConnectTransmission.RookTransmissionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RookTransmissionError",
+                    "printedName": "RookConnectTransmission.RookTransmissionError",
+                    "usr": "s:23RookConnectTransmission0aC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RookConnectTransmission.RookTransmissionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RookTransmissionError",
+                        "printedName": "RookConnectTransmission.RookTransmissionError",
+                        "usr": "s:23RookConnectTransmission0aC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23RookConnectTransmission0aC5ErrorO9emptyDatayA2CmF",
+            "mangledName": "$s23RookConnectTransmission0aC5ErrorO9emptyDatayA2CmF",
+            "moduleName": "RookConnectTransmission"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -97850,6 +97887,13 @@
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/TransmissionManager\/RookBodyTransmission\/RookBodyTransmissionManager.swift",
       "kind": "StringLiteral",
+      "offset": 568,
+      "length": 29,
+      "value": "\"There are no data to upload\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/TransmissionManager\/RookBodyTransmission\/RookBodyTransmissionManager.swift",
+      "kind": "StringLiteral",
       "offset": 224,
       "length": 23,
       "value": "\"First set the user id\""
@@ -97888,6 +97932,13 @@
       "offset": 518,
       "length": 30,
       "value": "\"Your client uuid was not set\""
+    },
+    {
+      "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/TransmissionManager\/RookBodyTransmission\/RookBodyTransmissionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 29,
+      "value": "\"There are no data to upload\""
     },
     {
       "filePath": "\/Users\/franciscoguerreroescamilla\/Developer\/Rook\/SDK's\/RookAuthenticationSDK\/RookConnectTransmission\/Source\/Data\/TrasnmissionNetworking\/PhysicalNetworking\/Entities\/Granular\/RookActivityLevelGranularNetworking.swift",

@@ -1398,6 +1398,7 @@ public enum RookTransmissionError : Swift.String, Swift.Error {
   case registerNotFound
   case datetimeNil
   case clientUUIDEmpty
+  case emptyData
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
