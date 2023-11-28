@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RookConnectTransmission-Swift.h</key>
 		<data>
-		zXWY2ygur9odYkRl/B0BxTPMIMU=
+		xqEFqDQJGbx/j/PZkTPZaEx3GBg=
 		</data>
 		<key>Headers/RookConnectTransmission.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		IVx6iQqLLMEdWLwn0kKhVZ8XJSk=
+		rA9go7EWXTK2kkfvDnY7FuS0KqA=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OmvQsZguHs+0fJQVeUx6Dabci6E=
+		X90eqdKFDhsHDLCpPwe5itsHkkM=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OmvQsZguHs+0fJQVeUx6Dabci6E=
+		X90eqdKFDhsHDLCpPwe5itsHkkM=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gxxgeaMyWajSI42A56k94aPEZjU=
+		A5Hb4bK5yP00aEtjyoVeXOFJfuw=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		IVx6iQqLLMEdWLwn0kKhVZ8XJSk=
+		rA9go7EWXTK2kkfvDnY7FuS0KqA=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MKw73M5L4CHhtrRFM2zE4p/wTYg=
+		bjlXfSmcBT8lOmUOlquvAKaHNnU=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MKw73M5L4CHhtrRFM2zE4p/wTYg=
+		bjlXfSmcBT8lOmUOlquvAKaHNnU=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IoguYDrMukySkkkOvs9UBF3QdSw=
+		9OT7AzkBkGRmaeka783HBweGgeM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z6QttVNFot4R0jutAsFam5mjBHIrp+tSpwdWofc9my0=
+			Lh4K3C3OljvFafAYJucnUgvoLMj/AoJTmzsmJ4mXWeU=
 			</data>
 		</dict>
 		<key>Headers/RookConnectTransmission.h</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HIQ1Vq9Q/9+lt1BcUGdXegVpVsBEkpPrpk9GY/XVnSs=
+			RdiMbfw+90sthYiTu0ng8RCbx/fdpbEHR89fbNLE8H4=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6MeaKIS+pnVfFN0iyPuZwArErV3YLnHf9SXkGm0HfE=
+			T6mDFyLTP9rvSH2MS753e7zvJGa6PUYj+/QcusYSwVA=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -118,28 +118,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6MeaKIS+pnVfFN0iyPuZwArErV3YLnHf9SXkGm0HfE=
+			T6mDFyLTP9rvSH2MS753e7zvJGa6PUYj+/QcusYSwVA=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qKeL+lnVnWj5UgKT8OZSASBtAw2qxWXsyPEWyqhV1OE=
+			a3+um+F4g/KBM8ETA034542f6UbFXDzK+4Db4vvb53s=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HIQ1Vq9Q/9+lt1BcUGdXegVpVsBEkpPrpk9GY/XVnSs=
+			RdiMbfw+90sthYiTu0ng8RCbx/fdpbEHR89fbNLE8H4=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ARLAe47RoEjID7xbwEa6QJXgbaax+klkgAYJt9xP6g=
+			KsZVpItkglsY0q5fEa6m1ICxNPTyyJge+ihnznDeEJQ=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -153,14 +153,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ARLAe47RoEjID7xbwEa6QJXgbaax+klkgAYJt9xP6g=
+			KsZVpItkglsY0q5fEa6m1ICxNPTyyJge+ihnznDeEJQ=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ye+XAUP5NQIJlke+94nmMktTLgfh4ptCFqurYWP8mO0=
+			ouhvyKElqILeks5NWLZWPGmxmOHZdzDTQ2hTmIbue/s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
