@@ -406,7 +406,7 @@ SWIFT_CLASS("_TtC23RookConnectTransmission27RookBodyTransmissionManager")
 
 @interface RookBodyTransmissionManager (SWIFT_EXTENSION(RookConnectTransmission))
 - (void)enqueueBodySummaryObjcWith:(NSData * _Nonnull)extractionData completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
-- (void)enqueueBosysummariesWith:(RookBodyDataTransmissionDTOBuilderObjc * _Nonnull)bodyBuilder completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)enqueueBodySummariesWith:(RookBodyDataTransmissionDTOBuilderObjc * _Nonnull)bodyBuilder completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)getBodySummariesStoredObjcWithCompletion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
 - (void)uploadBodySummariesObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 @end
@@ -1545,7 +1545,7 @@ SWIFT_CLASS("_TtC23RookConnectTransmission27RookBodyTransmissionManager")
 
 @interface RookBodyTransmissionManager (SWIFT_EXTENSION(RookConnectTransmission))
 - (void)enqueueBodySummaryObjcWith:(NSData * _Nonnull)extractionData completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
-- (void)enqueueBosysummariesWith:(RookBodyDataTransmissionDTOBuilderObjc * _Nonnull)bodyBuilder completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+- (void)enqueueBodySummariesWith:(RookBodyDataTransmissionDTOBuilderObjc * _Nonnull)bodyBuilder completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 - (void)getBodySummariesStoredObjcWithCompletion:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nullable, NSError * _Nullable))completion;
 - (void)uploadBodySummariesObjcWithCompletion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
 @end
