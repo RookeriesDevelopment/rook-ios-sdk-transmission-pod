@@ -452,13 +452,13 @@ public struct RookGranularStepsTransmission : Swift.Codable {
 }
 public struct RookCaloriesDataEventTransmission : Swift.Codable {
   public let caloriesNetIntakeKilocalories: Swift.Int?
-  public let caloriesExpenditureKilocalories: Swift.Int?
-  public let caloriesNetActiveKilocalories: Swift.Int?
-  public let caloriesBasalMetabolicRateKilocalories: Swift.Int?
+  public let caloriesExpenditureKilocalories: Swift.Float?
+  public let caloriesNetActiveKilocalories: Swift.Float?
+  public let caloriesBasalMetabolicRateKilocalories: Swift.Float?
   public let fatPercentageOfCaloriesPercentage: Swift.Int?
   public let carbohydratePercentageOfCaloriesPercentage: Swift.Int?
   public let proteinPercentageOfCaloriesPercentage: Swift.Int?
-  public init(caloriesNetIntakeKilocalories: Swift.Int?, caloriesExpenditureKilocalories: Swift.Int?, caloriesNetActiveKilocalories: Swift.Int?, caloriesBasalMetabolicRateKilocalories: Swift.Int?, fatPercentageOfCaloriesPercentage: Swift.Int?, carbohydratePercentageOfCaloriesPercentage: Swift.Int?, proteinPercentageOfCaloriesPercentage: Swift.Int?)
+  public init(caloriesNetIntakeKilocalories: Swift.Int?, caloriesExpenditureKilocalories: Swift.Float?, caloriesNetActiveKilocalories: Swift.Float?, caloriesBasalMetabolicRateKilocalories: Swift.Float?, fatPercentageOfCaloriesPercentage: Swift.Int?, carbohydratePercentageOfCaloriesPercentage: Swift.Int?, proteinPercentageOfCaloriesPercentage: Swift.Int?)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -1321,13 +1321,13 @@ extension RookConnectTransmission.RookPhysicalTransmissionManager {
 }
 @objc public class RookTransmissionCaloriesDataEventObjc : ObjectiveC.NSObject, Swift.Encodable {
   @objc final public let caloriesNetIntakeKilocalories: Swift.Int
-  @objc final public let caloriesExpenditureKilocalories: Swift.Int
-  @objc final public let caloriesNetActiveKilocalories: Swift.Int
-  @objc final public let caloriesBasalMetabolicRateKilocalories: Swift.Int
+  @objc final public let caloriesExpenditureKilocalories: Swift.Float
+  @objc final public let caloriesNetActiveKilocalories: Swift.Float
+  @objc final public let caloriesBasalMetabolicRateKilocalories: Swift.Float
   @objc final public let fatPercentageOfCaloriesPercentage: Swift.Int
   @objc final public let carbohydratePercentageOfCaloriesPercentage: Swift.Int
   @objc final public let proteinPercentageOfCaloriesPercentage: Swift.Int
-  @objc public init(caloriesNetIntakeKilocalories: Swift.Int, caloriesExpenditureKilocalories: Swift.Int, caloriesNetActiveKilocalories: Swift.Int, caloriesBasalMetabolicRateKilocalories: Swift.Int, fatPercentageOfCaloriesPercentage: Swift.Int, carbohydratePercentageOfCaloriesPercentage: Swift.Int, proteinPercentageOfCaloriesPercentage: Swift.Int)
+  @objc public init(caloriesNetIntakeKilocalories: Swift.Int, caloriesExpenditureKilocalories: Swift.Float, caloriesNetActiveKilocalories: Swift.Float, caloriesBasalMetabolicRateKilocalories: Swift.Float, fatPercentageOfCaloriesPercentage: Swift.Int, carbohydratePercentageOfCaloriesPercentage: Swift.Int, proteinPercentageOfCaloriesPercentage: Swift.Int)
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
