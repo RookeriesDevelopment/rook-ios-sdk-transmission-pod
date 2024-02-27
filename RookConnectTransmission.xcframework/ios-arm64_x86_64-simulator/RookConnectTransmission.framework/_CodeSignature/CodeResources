@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fi9OcUvfCs4wckp4z2FnEK/YJFI=
+		8/JSQYCYF5rXauTl7IzrXfQVDI8=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vkrC/HZJ+YWC8+J087BS+S3hyGg=
+		Z0g+lDd5R5AQ+djnQWPagq8/eOA=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fi9OcUvfCs4wckp4z2FnEK/YJFI=
+		8/JSQYCYF5rXauTl7IzrXfQVDI8=
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3Sv+dtas3VXlcmJpfhLVUjso2iM=
+		sQnxmCHRrGNxZYG/JeaLRmkV1vU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G/CAGNzzk26YYr7GM4wFVby/e+10/WhXf5OL1W7Qolw=
+			770q5WFGZBqNMPTlGs6DHEy4C4+4oOxZgSzuF7jLROs=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,14 +133,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bwqW6DaQB9wWNZSHow3WezGzw8HXSoKP7drkmRKbgvE=
+			clUsNsL/WJ3s2A1jWxHlw3Ag8AS3Z1dp0ZudVJbqIrA=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G/CAGNzzk26YYr7GM4wFVby/e+10/WhXf5OL1W7Qolw=
+			770q5WFGZBqNMPTlGs6DHEy4C4+4oOxZgSzuF7jLROs=
 			</data>
 		</dict>
 		<key>Modules/RookConnectTransmission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -168,7 +168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BR+cevsBlHr5pR2TTNpxZ4chCzlu5q52ZKWQ5rtqSyY=
+			NOuhKdwJNubTIBTZLjMld9FpaZSbdbANh0Syjqiy7q0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
