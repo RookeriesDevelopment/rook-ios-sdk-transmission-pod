@@ -288,6 +288,18 @@ public struct RookSnoringGranularTransmissionDTO {
   @objc final public func uploadHrEvents(completion: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void)
   @objc deinit
 }
+final public class RookBodyMetricsEventTransmissionManager {
+  public init()
+  final public func getLastBodyMetricsEventTransmittedDate() -> Foundation.Date?
+  final public func enqueueBodyMetricsEvent(_ eventData: Foundation.Data, completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  final public func enqueueBodyMetricsEvents(_ events: [RookConnectTransmission.RookBodyMetricsEventTransmission], completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  final public func getBodyMetricsEvents(completion: @escaping (Swift.Result<[RookConnectTransmission.RookBodyMetricsEventTransmission], Swift.Error>) -> Swift.Void)
+  final public func uploadEvents(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func uploadEventsAsync() async throws -> Swift.Bool
+  #endif
+  @objc deinit
+}
 public struct JSONParameterEncoder : RookConnectTransmission.ParameterEncoder {
   public static func encode(urlRequest: inout Foundation.URLRequest, with parameters: RookConnectTransmission.Parameters) throws
 }
@@ -653,6 +665,29 @@ public struct RookTemperatureGranularTransmissionDTO : Swift.Codable {
   public let measurementType: Swift.String
   public let datetime: Foundation.Date
   public init(datetime: Foundation.Date, temperatureCelsius: Swift.Int, measurementType: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct RookBodyMetricsEventTransmission : Swift.Codable {
+  public let metaData: RookConnectTransmission.RookMetaDataEventTransmission
+  public let bodyMetricsData: RookConnectTransmission.RookBodyMetricsDataEventTransmission
+  public var dataEvent: Foundation.Data? {
+    get
+  }
+  public init(metaData: RookConnectTransmission.RookMetaDataEventTransmission, bodyMetricsData: RookConnectTransmission.RookBodyMetricsDataEventTransmission)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct RookBodyMetricsDataEventTransmission : Swift.Codable {
+  public let waistCircumferenceCMNumber: Swift.Float?
+  public let hipCircumferenceCMNumber: Swift.Float?
+  public let chestCircumferenceCMNumber: Swift.Float?
+  public let boneCompositionPercentageNumber: Swift.Float?
+  public let bmiNumber: Swift.Float?
+  public let muscleCompositionPercentageNumber: Swift.Float?
+  public let weightKgNumber: Swift.Float?
+  public let heightCMNumber: Swift.Float?
+  public init(waistCircumferenceCMNumber: Swift.Float?, hipCircumferenceCMNumber: Swift.Float?, chestCircumferenceCMNumber: Swift.Float?, boneCompositionPercentageNumber: Swift.Float?, bmiNumber: Swift.Float?, muscleCompositionPercentageNumber: Swift.Float?, weightKgNumber: Swift.Float?, heightCMNumber: Swift.Float?)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -1583,6 +1618,7 @@ public enum RookTransmissionEventType : Swift.String {
   case temperatureEvent
   case bloodGlucoseEvent
   case bloodPressureEvent
+  case bodyMetricsEvent
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
