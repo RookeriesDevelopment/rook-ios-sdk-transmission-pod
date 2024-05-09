@@ -712,6 +712,7 @@ public struct RookBodyMetricsDataEventTransmission : Swift.Codable {
   @objc final public func initRookTransmission()
   final public func initRookTransmission(completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
   @objc final public func isTransmissionAvailable() -> Swift.Bool
+  @objc final public func setConsoleLogAvailable(_ value: Swift.Bool)
   @objc deinit
 }
 public struct StepsGranularDataStepsPerHr : Swift.Codable {

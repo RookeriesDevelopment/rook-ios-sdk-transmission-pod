@@ -1118,6 +1118,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookTransmis
 - (void)setUserIdWith:(NSString * _Nullable)id;
 - (void)initRookTransmission SWIFT_METHOD_FAMILY(none);
 - (BOOL)isTransmissionAvailable SWIFT_WARN_UNUSED_RESULT;
+- (void)setConsoleLogAvailable:(BOOL)value;
 @end
 
 
@@ -2411,6 +2412,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) RookTransmis
 - (void)setUserIdWith:(NSString * _Nullable)id;
 - (void)initRookTransmission SWIFT_METHOD_FAMILY(none);
 - (BOOL)isTransmissionAvailable SWIFT_WARN_UNUSED_RESULT;
+- (void)setConsoleLogAvailable:(BOOL)value;
 @end
 
 
